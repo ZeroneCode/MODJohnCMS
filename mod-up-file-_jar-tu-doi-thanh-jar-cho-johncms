@@ -1,18 +1,15 @@
 
 Hướng dẩn:
 Vào forum/include/addfile.php
-
-<?php
+Tìm:
 if ($do_file || $do_file_mini) {
-?>
+
 
 
 Thêm dưới
-
-<?php
 $fname = preg_replace('#(.+?)_jar$eg_replace('#(.+?)_jar$#si','$1.jar',$fname);
 $fname = preg_replace('#(.+?)_jad$#si','.jad',$fname);
-?>
+
 
 
 Xong nhé!
